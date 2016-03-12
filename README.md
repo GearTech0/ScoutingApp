@@ -8,3 +8,6 @@ Input respective values and click submit.
 -Connect to Server and send <br />
 -Make App Dynamic by allowing the creation of a scouting sheet <br />
 -Add SigmaC@t logo <br />
+
+# Build
+Build is in the app folder

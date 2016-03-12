@@ -1,5 +1,13 @@
 package com.github.daquarischadwick.scoutingapp;
 
+/**See what data you have entered into the application
+ *
+ *  To-Do: Make into list view and add items based on team number
+ *  check team number before adding,
+ *      if similar to team number that has already been taken, overwrite previous values
+ */
+
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,7 +34,7 @@ public class DebugActivity extends AppCompatActivity {
 
         intt = getIntent();
         text = new TextView(this);
-        text.setTextSize(40f);
+        text.setTextSize(18f);
         RelativeLayout rel = (RelativeLayout)findViewById(R.id.content);
         showNewFile();
         rel.addView(text);

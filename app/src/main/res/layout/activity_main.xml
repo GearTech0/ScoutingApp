@@ -9,8 +9,8 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/firstIcon">
 
         <TableRow
             android:layout_width="match_parent"
@@ -30,7 +30,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/teamNumText"
                 android:layout_column="9"
-                android:width="200dp" />
+                android:width="200dp"
+                android:inputType="numberDecimal" />
         </TableRow>
 
         <TableRow
@@ -114,11 +115,27 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></TableRow>
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:layout_column="0" />
+        </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></TableRow>
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Hold Save for New File"
+                android:id="@+id/saveAddText"
+                android:layout_column="9"
+                android:gravity="center" />
+        </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
@@ -127,9 +144,24 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Submit"
+                android:text="View Data"
+                android:id="@+id/viewData"
+                android:layout_column="0" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
                 android:id="@+id/submitButton"
                 android:layout_column="9" />
         </TableRow>
     </TableLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstIcon"
+        android:background="@drawable/firstlogos"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
