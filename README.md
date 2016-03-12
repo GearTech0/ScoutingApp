@@ -5,6 +5,6 @@ App for scouting: FRC 2016 Competition
 Input respective values and click submit.
 
 # To Add
--Connect to Server and send__
--Make App Dynamic by allowing the creation of a scouting sheet__
--Add SigmaC@t logo__
+-Connect to Server and send <br />
+-Make App Dynamic by allowing the creation of a scouting sheet <br />
+-Add SigmaC@t logo <br />
