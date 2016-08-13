@@ -1,5 +1,5 @@
 # ScoutingApp
-App for scouting: FRC 2016 Competition
+App for scouting: FRC 2016 Competition Created using Android Studio with the Java programming language.
 
 # How to use
 Input respective values and click submit.
